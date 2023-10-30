@@ -103,7 +103,7 @@
 			"1"
 			{
 				"name"										"Lucida Console"
-				"tall"										"10"
+				"tall"										"12"
 				"weight"									"500"
 			}
 		}
