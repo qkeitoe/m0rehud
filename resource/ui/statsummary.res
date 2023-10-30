@@ -165,7 +165,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MapAuthors"
-			"xpos"									"c20"
+			"xpos"									"9999"
 			"ypos"									"155"
 			"zpos"									"2"
 			"wide"									"275"
@@ -180,7 +180,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MapLeaderboardTitle"
-			"xpos"									"c20"
+			"xpos"									"9999"
 			"ypos"									"230"
 			"zpos"									"2"
 			"wide"									"275"
@@ -243,7 +243,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StatData"
-		"xpos"										"0"
+		"xpos"										"9999"
 		"ypos"										"105"
 		"zpos"										"50"
 		"wide"										"f0"
