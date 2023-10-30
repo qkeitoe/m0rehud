@@ -37,7 +37,7 @@
 			{
 				"font"								"m0refont11Shadow"
 				"xpos"								"rs1-5"
-				"ypos"								"0"
+				"ypos"								"-1"
 				"wide"								"f0"
 				"tall"								"f7"
 				"textAlignment"						"east"
