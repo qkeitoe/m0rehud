@@ -44,12 +44,6 @@
 		"label"										"HUD Options"
 		"command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0"
 	}
-	"Friends"
-	{
-		"label"										"k"
-		"command"									"motd_show"
-		"tooltip"									"Friends List"
-	}
 	"Workshop"
 	{
 		"label"										"Workshop"
