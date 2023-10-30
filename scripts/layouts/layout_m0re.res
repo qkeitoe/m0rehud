@@ -98,8 +98,8 @@
 	}
 	"CSpectatorTargetID"
 	{
-		"ypos"										"c90"
-		"ypos_minmode"								"c90"
+		"ypos"										"c40"
+		"ypos_minmode"								"c40"
 		"tall"										"32"
 		"tall_minmode"								"32"
 	}

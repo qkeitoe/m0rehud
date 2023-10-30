@@ -681,7 +681,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"xpos"										"c-240"
-		"ypos"										"c60"
+		"ypos"										"c125"
 		"wide"										"480"
 		"tall"										"100"
 		"HintSize"									"1"
