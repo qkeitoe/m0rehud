@@ -637,8 +637,7 @@
 		{
 			"1"
 			{
-				"name"										"Trebuchet MS" 	[!$OSX]
-				"name"										"Helvetica" 	[$OSX]
+				"name"										"Product Sans"
 				"tall"										"20"
 				"weight"									"900"
 				"antialias"									"1"
