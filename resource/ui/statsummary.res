@@ -26,7 +26,7 @@
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"f0"
-		"visible"									"0"
+		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/menu/loading_bg"
 		"scaleImage"								"1"
