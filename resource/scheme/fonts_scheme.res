@@ -638,7 +638,7 @@
 			"1"
 			{
 				"name"										"Product Sans"
-				"tall"										"20"
+				"tall"										"22"
 				"weight"									"900"
 				"antialias"									"1"
 				"additive"									"1"
