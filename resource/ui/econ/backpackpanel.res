@@ -386,6 +386,18 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
+	"SortByComboBoxCover"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"SortByComboBoxCover"
+		"xpos"										"c136"
+		"ypos"										"37"
+		"zpos"										"2"
+		"wide"										"150"
+		"tall"										"16"
+		"visible"									"1"
+		"enabled"									"1"
+	}
 	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
