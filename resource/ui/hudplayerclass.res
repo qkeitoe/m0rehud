@@ -8,7 +8,7 @@
 		"ypos"										"c82"
 		"zpos"										"-1"
 		"wide"										"100"
-		"tall"										"42"
+		"tall"										"43"
 		"visible"									"0"
 		"enabled"									"1"
 		"fillcolor"									"TransparentBlack"
