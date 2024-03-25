@@ -48,6 +48,7 @@
 	//===============================================================
 	// OTHER ANIMATIONS
 	//===============================================================
+	"file" "scripts/animations/hudanimations_testing.txt"
 	"file" "scripts/animations/hudanimations_misc.txt"
 	"file" "scripts/animations/hudanimations_removed.txt"
 
