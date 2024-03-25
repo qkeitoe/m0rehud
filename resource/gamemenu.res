@@ -5,7 +5,7 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"m0rehud 7.1"
+		"label"										"m0rehud 7.2"
 		"command"									"engine showconsole; echo m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
 		"OnlyAtMenu"								"1"
 	}
@@ -109,11 +109,11 @@
 		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
 	}
-	"Fix_Glitches"
+	"HUD_Sound_Reload"
 	{
 		"label"										"%"
-		"command"									"engine stop; record fix; hud_reloadscheme; snd_restart"
-		"tooltip"									"Fix Visual/Sound Glitches"
+		"command"									"engine hud_reloadscheme; snd_restart"
+		"tooltip"									"Reload HUD and Sound"
 		"OnlyInGame"								"1"
 	}
 }

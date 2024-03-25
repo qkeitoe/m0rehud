@@ -1,6 +1,6 @@
 #base "customizations/#customization_menu/hud_customization.res"
-#base "../dev/preload.res"
-#base "../dev/reloadmenu.res"
+#base "../dev/texture_preload.res"
+#base "../dev/reload_menu.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -929,10 +929,10 @@
 			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
-	"Fix_Glitches"
+	"HUD_Sound_Reload"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Fix_Glitches"
+		"fieldname"									"HUD_Sound_Reload"
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"15"
