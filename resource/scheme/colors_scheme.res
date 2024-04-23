@@ -9,15 +9,15 @@
 		//----------------------------------------------------------------------------------
 		"Health_Numbers"									"255 255 255 255"
 
-		"Health_Buff"										"0 185 0 255"
-		"Health_Shadow_Buff"								"0 185 0 255"
-		"Health_Buff_Target"								"0 215 0 255"
-		"Health_Buff_Killer"								"0 215 0 255"
+		"Health_Buff"										"0 255 63 255"
+		"Health_Shadow_Buff"								"0 255 63 255"
+		"Health_Buff_Target"								"0 255 63 255"
+		"Health_Buff_Killer"								"0 255 63 255"
 
-		"Health_Hurt"										"255 0 0 255"
-		"Health_Shadow_Hurt"								"255 0 0 255"
+		"Health_Hurt"										"255 50 0 255"
+		"Health_Shadow_Hurt"								"255 50 0 255"
 		"Health_Hurt_Target"								"255 255 255 255"
-		"Health_Hurt_Killer"								"255 0 0 255"
+		"Health_Hurt_Killer"								"255 50 0 255"
 
 		//----------------------------------------------------------------------------------
 		// AMMO
@@ -25,10 +25,10 @@
 		"Ammo_In_Clip"										"255 255 255 255"
 		"Ammo_In_Reserve"									"255 255 255 255"
 
-		"Ammo_In_Clip_Low"									"255 0 0 255"
-		"Ammo_In_Clip_Shadow_Low"							"255 0 0 255"
-		"Ammo_In_Reserve_Low"								"255 0 0 255"
-		"Ammo_In_Reserve_Shadow_Low"						"255 0 0 255"
+		"Ammo_In_Clip_Low"									"255 50 0 255"
+		"Ammo_In_Clip_Shadow_Low"							"255 50 0 255"
+		"Ammo_In_Reserve_Low"								"255 50 0 255"
+		"Ammo_In_Reserve_Shadow_Low"						"255 50 0 255"
 
 		//----------------------------------------------------------------------------------
 		// UBER
@@ -48,7 +48,7 @@
 		// +HEALTH AND DAMAGE
 		//----------------------------------------------------------------------------------
 		"Health_Gained"										"0 255 0 255"
-		"Health_Lost"										"255 0 0 255"
+		"Health_Lost"										"255 50 0 255"
 
 		"Heal_Numbers"										"0 255 0 255"
 		"Last_Damage_Done"									"255 255 255 255"
