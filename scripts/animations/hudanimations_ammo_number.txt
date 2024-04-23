@@ -3,6 +3,8 @@
 //===========================================================================================================================
 event HudLowAmmoPulseNumber
 {
+	StopEvent LingeringAmmoFix 						0.0
+
 	// AMMO IN CLIP ---------------------------------------------------------------------------------------------------------
 	Animate AmmoInClip								FgColor		"Ammo_In_Clip_Low"					Linear	0.0		0.0
 	Animate AmmoInClipShadow						FgColor		"Main_Shadow"						Linear	0.0		0.0

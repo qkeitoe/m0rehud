@@ -2,6 +2,8 @@
 
 event HudLowAmmoPulseFlash
 {
+	StopEvent LingeringAmmoFix 						0.0
+
 	Animate AmmoInClipShadow						FgColor		"255 0 0 255"						Linear	0.0		0.0
 	Animate AmmoInReserveShadow						FgColor		"255 0 0 255"						Linear	0.0		0.0
 	Animate AmmoNoClipShadow						FgColor		"255 0 0 255"						Linear	0.0		0.0

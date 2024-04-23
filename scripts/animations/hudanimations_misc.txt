@@ -89,3 +89,42 @@ event TempusSpeedoBGoff
 }
 
 //===========================================================================================================================
+
+event MenuOpen
+{
+	RunEventChild HudWeaponAmmo LingeringAmmoFix 		0.0
+	RunEventChild HudPlayerHealth LingeringHealthFix	0.0
+
+	StopEvent MenuClose								0.0
+
+	// fade in
+	Animate HudMenu 								Alpha 			"255"							Linear	0.0		0.1
+	Animate HudMenu 								SelectionAlpha "255"							Linear	0.0		0.1
+	Animate HudMenu 								FgColor			"FgColor"						Linear	0.0		0.1
+	Animate HudMenu 								MenuColor		"MenuColor"						Linear	0.0		0.1
+	Animate HudMenu 								ItemColor		"ItemColor"						Linear	0.0		0.1
+	Animate HudMenu 								TextScan		"1"								Linear	0.0		0.1
+
+	// Undo any blur
+	Animate HudMenu									Blur			"1"								Linear	0.0		0.01
+}
+
+event LingeringAmmoFix
+{
+	Animate AmmoInClipShadow						FgColor		"Main_Shadow"						Linear	0.5		0.0
+	Animate AmmoInReserveShadow						FgColor		"Main_Shadow"						Linear	0.5		0.0
+	Animate AmmoNoClipShadow						FgColor		"Main_Shadow"						Linear	0.5		0.0
+	Animate	AmmoInClip								FgColor		"Ammo_In_Clip"						Linear	0.5		0.0
+	Animate	AmmoInReserve							FgColor		"Ammo_In_Reserve"					Linear	0.5		0.0
+	Animate	AmmoNoClip								FgColor		"Ammo_In_Clip"						Linear	0.5		0.0
+}
+
+event LingeringHealthFix
+{
+	Animate	PlayerStatusHealthDyingBG				Alpha		"0"									Linear	0.5		0.0
+	Animate HealthValue								FgColor		"Health_Numbers"					Linear	0.5		0.0
+	Animate HealthValue_Shadow						FgColor		"Main_Shadow"						Linear	0.5		0.0
+	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.5		0.0
+}
+
+//===========================================================================================================================
